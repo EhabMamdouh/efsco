@@ -456,39 +456,32 @@ const EmpDetail = () => {
                                                     <table class="table table-bordered table-sm text-center">
                                                         <thead>
                                                             <tr hidden={!empdata.Insurances || empdata.Insurances === '0'}>
-
                                                                 <th>تامينات</th>
                                                                 <td>{empdata.Insurances}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.tax || empdata.tax === '0'}>
-
                                                                 <th>ضريبة</th>
                                                                 <td>{empdata.tax}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.unpaid_leave || empdata.unpaid_leave === '0'}>
-
                                                                 <th>اجازة بدون مرتب</th>
                                                                 <td>{empdata.unpaid_leave}</td>
                                                             </tr>
 
 
                                                             <tr hidden={!empdata.matrouh_land || empdata.matrouh_land === '0'}>
-
                                                                 <th>ارض مطروح</th>
                                                                 <td>{empdata.matrouh_land}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.more_essential || empdata.more_essential === '0'}>
-
                                                                 <th>اساسي بزياده</th>
                                                                 <td>{empdata.more_essential}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.car_subscription || empdata.car_subscription === '0'}>
-
                                                                 <th>اشتراك سياره</th>
                                                                 <td>{empdata.car_subscription}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.fund_subscription || empdata.fund_subscription === '0'}>
-
                                                                 <th>اشتراك صندوق</th>
                                                                 <td>{empdata.fund_subscription}</td>
                                                             </tr>
@@ -496,86 +489,70 @@ const EmpDetail = () => {
 
 
                                                             <tr hidden={!empdata.club_subscription || empdata.club_subscription === '0'}>
-
                                                                 <th>اشتراك نادى</th>
                                                                 <td>{empdata.club_subscription}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.union_membership || empdata.union_membership === '0'}>
-
                                                                 <th>اشتراك نقابه</th>
                                                                 <td>{empdata.union_membership}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.egyptian_gulf_bank || empdata.egyptian_gulf_bank === '0'}>
-
                                                                 <th>البنك المصرى الخليجى</th>
                                                                 <td>{empdata.egyptian_gulf_bank}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.egyptian_gulf_bank_remaining || empdata.egyptian_gulf_bank_remaining === '0'}>
-
                                                                 <th>البنك المصرى الخليجى/متبقى</th>
                                                                 <td>{empdata.egyptian_gulf_bank_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.ainSukhna_debt_discount || empdata.ainSukhna_debt_discount === '0'}>
-
                                                                 <th>العين السخنة-خصم مديونيه</th>
                                                                 <td>{empdata.ainSukhna_debt_discount}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.ainSukh_remaining || empdata.ainSukh_remaining === '0'}>
-
                                                                 <th>العين السخنة-خصم مديونيه/متبقى</th>
                                                                 <td>{empdata.ainSukh_remaining}</td>
                                                             </tr>
 
 
                                                             <tr hidden={!empdata.housing_development_bank || empdata.housing_development_bank === '0'}>
-
                                                                 <th>بنك التعمير والاسكان</th>
                                                                 <td>{empdata.housing_development_bank}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.housing_and_development_bank_remaining || empdata.housing_and_development_bank_remaining === '0'}>
-
                                                                 <th>بنك التعمير والاسكان/متبقى</th>
                                                                 <td>{empdata.housing_and_development_bank_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.community_association || empdata.community_association === '0'}>
-
                                                                 <th>جمعيه اهليه</th>
                                                                 <td>{empdata.community_association}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.extraordinary_effort_departments_in_excess || empdata.extraordinary_effort_departments_in_excess === '0'}>
-
                                                                 <th>جهد غير عادى-ادارات بالزياده</th>
                                                                 <td>{empdata.extraordinary_effort_departments_in_excess}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.employer_share || empdata.employer_share === '0'}>
-
                                                                 <th>حصه صاحب العمل</th>
                                                                 <td>{empdata.employer_share}</td>
                                                             </tr>
 
 
                                                             <tr hidden={!empdata.basic_discount || empdata.basic_discount === '0'}>
-
                                                                 <th>خصم اساسي</th>
                                                                 <td>{empdata.basic_discount}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.incentive_discount || empdata.incentive_discount === '0'}>
-
                                                                 <th>خصم حافز</th>
                                                                 <td>{empdata.incentive_discount}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.incentive_difference_discount || empdata.incentive_difference_discount === '0'}>
-
                                                                 <th>خصم فرق حافز</th>
                                                                 <td>{empdata.incentive_difference_discount}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.health_care_over_the_age_of_60 || empdata.health_care_over_the_age_of_60 === '0'}>
-
                                                                 <th>رعايه صحيه فوق سن الـ 60</th>
                                                                 <td>{empdata.health_care_over_the_age_of_60}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.company_goods || empdata.company_goods === '0'}>
-
                                                                 <th>سلع شركة</th>
                                                                 <td>{empdata.company_goods}</td>
                                                             </tr>
@@ -583,81 +560,66 @@ const EmpDetail = () => {
 
 
                                                             <tr hidden={!empdata.company_goods_remaining || empdata.company_goods_remaining === '0'}>
-
                                                                 <th>سلع شركة/متبقى</th>
                                                                 <td>{empdata.company_goods_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.fund_advances_advances || empdata.fund_advances_advances === '0'}>
-
                                                                 <th>سلف الصندوق</th>
                                                                 <td>{empdata.fund_advances_advances}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.fund_remaining || empdata.fund_remaining === '0'}>
-
                                                                 <th>سلف الصندوق/متبقى</th>
                                                                 <td>{empdata.fund_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.temporary_advances || empdata.temporary_advances === '0'}>
-
                                                                 <th>سلف مؤقته</th>
                                                                 <td>{empdata.temporary_advances}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.temporary_residual_advances || empdata.temporary_residual_advances === '0'}>
-
                                                                 <th>سلف مؤقته/متبقى</th>
                                                                 <td>{empdata.temporary_residual_advances}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.medical_deductions_skips || empdata.medical_deductions_skips === '0'}>
-
                                                                 <th>طبي - خصومات/تخطيات</th>
                                                                 <td>{empdata.medical_deductions_skips}</td>
                                                             </tr>
 
 
                                                             <tr hidden={!empdata.medical_discounts_skips_remaining || empdata.medical_discounts_skips_remaining === '0'}>
-
                                                                 <th>طبي - خصومات/تخطيات/متبقى</th>
                                                                 <td>{empdata.medical_discounts_skips_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.special_bonus_for_the_increase || empdata.special_bonus_for_the_increase === '0'}>
-
                                                                 <th>علاوه خاصه بالزياده</th>
                                                                 <td>{empdata.special_bonus_for_the_increase}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.umrah_discounting_his_debts || empdata.umrah_discounting_his_debts === '0'}>
-
                                                                 <th>عمرة المولد النبوى الشريف1444-خصم مديونيه</th>
                                                                 <td>{empdata.umrah_discounting_his_debts}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.umrah_discounting_his_debts_remaining || empdata.umrah_discounting_his_debts_remaining === '0'}>
-
                                                                 <th>عمرة المولد النبوى الشريف1444-خصم مديونيه/متبقى</th>
                                                                 <td>{empdata.umrah_discounting_his_debts_remaining}</td>
                                                             </tr>
 
 
                                                             <tr hidden={!empdata.custody || empdata.custody === '0'}>
-
                                                                 <th>عهد</th>
                                                                 <td>{empdata.custody}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.bill_we || empdata.bill_we === '0'}>
-
                                                                 <th>فاتوره we</th>
                                                                 <td>{empdata.bill_we}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.etisalat_bill || empdata.etisalat_bill === '0'}>
-
                                                                 <th>فاتوره اتصالات</th>
                                                                 <td>{empdata.etisalat_bill}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.orange_bill || empdata.orange_bill === '0'}>
-
                                                                 <th>فاتوره اورنج</th>
                                                                 <td>{empdata.orange_bill}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.vodafone_bill || empdata.vodafone_bill === '0'}>
-
                                                                 <th>فاتوره فودافون</th>
                                                                 <td>{empdata.vodafone_bill}</td>
                                                             </tr>
@@ -665,12 +627,10 @@ const EmpDetail = () => {
 
 
                                                             <tr hidden={!empdata.premium_premium || empdata.premium_premium === '0'}>
-
                                                                 <th>قسط بريميوم</th>
                                                                 <td>{empdata.premium_premium}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.insurance_premium || empdata.insurance_premium === '0'}>
-
                                                                 <th>قسط بوليصه تامين</th>
                                                                 <td>{empdata.insurance_premium}</td>
                                                             </tr>
@@ -680,7 +640,6 @@ const EmpDetail = () => {
                                                                 <td>{empdata.insurance_policy_premium_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.irregularities || empdata.irregularities === '0'}>
-
                                                                 <th>مخالفات</th>
                                                                 <td>{empdata.irregularities}</td>
                                                             </tr>
@@ -688,26 +647,21 @@ const EmpDetail = () => {
 
 
                                                             <tr hidden={!empdata.irregularities_remaining || empdata.irregularities_remaining === '0'}>
-
                                                                 <th>مخالفات/متبقى</th>
                                                                 <td>{empdata.irregularities_remaining}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.previous_term || empdata.previous_term === '0'}>
-
                                                                 <th>مدة سابقة</th>
                                                                 <td>{empdata.previous_term}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.disease_75 || empdata.disease_75 === '0'}>
-
                                                                 <th>مرضي 75</th>
                                                                 <td>{empdata.disease_75}</td>
                                                             </tr>
                                                             <tr hidden={!empdata.expense || empdata.expense === '0'}>
-
                                                                 <th>نفقه</th>
                                                                 <td>{empdata.expense}</td>
                                                             </tr>
-
                                                         </thead>
                                                     </table>
                                                 </div>
@@ -719,12 +673,10 @@ const EmpDetail = () => {
                                                         <table class="table table-bordered table-sm text-center">
                                                             <thead>
                                                                 <tr>
-
                                                                     <th>أجرالأشتراك</th>
                                                                     <td></td>
                                                                 </tr>
                                                                 <tr>
-
                                                                     <th>ج.المستحق</th>
                                                                     <td>{empdata.total_due}</td>
                                                                 </tr>
@@ -735,12 +687,10 @@ const EmpDetail = () => {
                                                         <table class="table table-bordered table-sm text-center">
                                                             <thead>
                                                                 <tr>
-
                                                                     <th>ج.المستقطع</th>
                                                                     <td>{empdata.total_deduction}</td>
                                                                 </tr>
                                                                 <tr>
-
                                                                     <th style={{ backgroundColor: '#E5E4E2' }}>الصافي</th>
                                                                     <td style={{ fontWeight: "bold" }}>{empdata.net_salary}</td>
                                                                 </tr>
