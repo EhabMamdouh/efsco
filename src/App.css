@@ -1,3 +1,7 @@
+html{
+  direction: rtl;
+}
+
 element.style {
   direction: rtl;
 }
