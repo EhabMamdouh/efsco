@@ -4,14 +4,14 @@ import { useReactToPrint } from "react-to-print";
 
 
 
-const EmpDetail = () => {
+const EmpDetail62023 = () => {
     const conponentPDF = useRef();
     const { id } = useParams();
     const [empdata, empdatachange] = useState({});
 
 
     useEffect(() => {
-        fetch("https://api.terracemenus.com/api/salaries52023/" + id).then((res) => {
+        fetch("https://api.terracemenus.com/api/salaries62023/" + id).then((res) => {
             return res.json();
         }).then((resp) => {
             empdatachange(resp);
@@ -716,4 +716,4 @@ const EmpDetail = () => {
     );
 }
 
-export default EmpDetail;
+export default EmpDetail62023;
