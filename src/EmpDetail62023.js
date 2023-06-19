@@ -141,6 +141,63 @@ const EmpDetail62023 = () => {
                                                 <div className="col-md-6">
                                                     <table class="table table-bordered table-sm text-center">
                                                         <thead>
+
+
+                                                            <tr hidden={!empdata.containers || empdata.containers === '0'}>
+
+                                                                <th>حاويات</th>
+                                                                <td>{empdata.containers}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.fixed_representation_allowance_re || empdata.fixed_representation_allowance_re === '0'}>
+
+                                                                <th>رد بدل تمثيل ثابت</th>
+                                                                <td>{empdata.fixed_representation_allowance_re}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.answering_etisalat_telephones || empdata.answering_etisalat_telephones === '0'}>
+
+                                                                <th>رد تليفونات اتصالات</th>
+                                                                <td>{empdata.answering_etisalat_telephones}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.unusual_effort_response_safe || empdata.unusual_effort_response_safe === '0'}>
+
+                                                                <th>رد جهد غير عادى -امن</th>
+                                                                <td>{empdata.unusual_effort_response_safe}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.reply_included || empdata.reply_included === '0'}>
+
+                                                                <th>رد علاوه مضمومه</th>
+                                                                <td>{empdata.reply_included}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.mobinil_bill_refund || empdata.reply_included === '0'}>
+
+                                                                <th>رد فاتورة موبينيل</th>
+                                                                <td>{empdata.reply_included}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.incentive_bonus || empdata.incentive_bonus === '0'}>
+
+                                                                <th>مكافاه تشجعيه</th>
+                                                                <td>{empdata.incentive_bonus}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.marriage_social_care || empdata.marriage_social_care === '0'}>
+
+                                                                <th>منحه زواج الموظف - رعايه اجتماعيه</th>
+                                                                <td>{empdata.marriage_social_care}</td>
+                                                            </tr>
+
+
+
+
+
+
+
+
                                                             <tr hidden={!empdata.chairman_salary || empdata.chairman_salary === '0'}>
 
                                                                 <th>مرتب رئيس مجلس الاداره</th>
@@ -667,6 +724,42 @@ const EmpDetail62023 = () => {
                                                                 <th>نفقه</th>
                                                                 <td>{empdata.expense}</td>
                                                             </tr>
+
+
+                                                            <tr hidden={!empdata.late_attendance || empdata.late_attendance === '0'}>
+                                                                <th>تاخير حضور</th>
+                                                                <td>{empdata.late_attendance}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.deduction_for_the_nature_of_work || empdata.deduction_for_the_nature_of_work === '0'}>
+                                                                <th>خصم بدل طبيعة عمل</th>
+                                                                <td>{empdata.deduction_for_the_nature_of_work}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.incentive_discount || empdata.incentive_discount === '0'}>
+                                                                <th>خصم من الحافز</th>
+                                                                <td>{empdata.incentive_discount}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.community_teams || empdata.community_teams === '0'}>
+                                                                <th>فرق جمعيه اهليه</th>
+                                                                <td>{empdata.community_teams}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.etisalat_bill_difference || empdata.etisalat_bill_difference === '0'}>
+                                                                <th>فرق فاتوره اتصالات</th>
+                                                                <td>{empdata.etisalat_bill_difference}</td>
+                                                            </tr>
+
+                                                            <tr hidden={!empdata.orange_bill_difference || empdata.orange_bill_difference === '0'}>
+                                                                <th>فرق فاتوره اورنج</th>
+                                                                <td>{empdata.orange_bill_difference}</td>
+                                                            </tr>
+
+
+
+
+
                                                         </thead>
                                                     </table>
                                                 </div>
